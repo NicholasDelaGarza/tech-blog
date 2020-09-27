@@ -23,7 +23,7 @@
 
   ## Usage 
 
-  To use simply visit the live application at: INSERTLINK
+  To use simply visit the live application at: https://peaceful-peak-03942.herokuapp.com/
 
   ## Contribution
 
