@@ -20,6 +20,11 @@ const editFormHandler = async function (event) {
   document.location.replace("/dashboard");
 };
 
+const confirmDelete = function (event) {
+  event.preventDefault();
+  document.querySelector("#danger-btn").setAttribute("class", "btn btn-danger");
+  document.querySelector("#delete-btn").setAttribute("class", "hidden");
+};
 const deleteClickHandler = async function () {
   await fetch(`/api/post/${postId}`, {
     method: "DELETE",
@@ -31,6 +36,11 @@ const deleteClickHandler = async function () {
 document
   .querySelector("#edit-post-form")
   .addEventListener("submit", editFormHandler);
+
 document
-  .querySelector("#delete-btn")
+    .querySelector("#delete-btn")
+    .addEventListener("click", confirmDelete);
+    
+document
+  .querySelector("#danger-btn")
   .addEventListener("click", deleteClickHandler);
