@@ -1,50 +1,10 @@
 
   # The Tech Blog
   
+## description 
+
+its a tech blog to post any ideas you may have
   
-  ![License](https://img.shields.io/badge/license-mit-informational.svg)
-  
-
-  ## Description
-  
-  This is a full stack web project that incorperates server setup that interacts with the front end. It is a social media site that allows users to either login (if an account is created in the database) or to create a new username and password. After logging in you can view all posts that were created under that specific account and also view a home page where all posts created on the site are displayed. Each post will display who the creator is as well as have the function to add comments to it. The comments will show who commented and the time it was created. Along with that the user logged in and update their previous posts and delete it to make it a fully functioning SQL CRUD application.
-
-  ## Table of contents
-
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [Screenshots](#screenshots)
-  * [License](#license)
-
-  ## Installation
-
-  To run this on your own computer you can copy the repo at https://github.com/cullinans1/tech-blog. After that you will need to install npm, express-handlebars, mysql2, sequelize, dotenv (to set up database), bcrypt (to hash passwords created), express=session, and connect-session-sequelize. You will then need to create the db on your system through the command line.
-
-  ## Usage 
-
-  To use simply visit the live application at: https://peaceful-peak-03942.herokuapp.com/
-
-  ## Contribution
-
-  Guidelines for contributions:
-
-  No contribution guidelines at this time.
-
-  ## Screenshots
-
-  ![Project Screenshot](/public/screenshot.png)
-
-
-
-  ## Questions?
-
-  Contact me at 
-
-  Email: sammy.cullinan@gmail.com
-
-  GitHub: https://github.com/cullinans1
-
   ## License
 
   Information on the license(s)
